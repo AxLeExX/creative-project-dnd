@@ -10,9 +10,9 @@ document.getElementById("searchSubmit").addEventListener("click", function(event
   fetch(url)
     .then(function(response) {
       console.log(response);
+      // Not sure how to have it make sure the spell was found...
       return response.json();
     }).then(function(json) {
-      console.log(json);
       let results = "";
       results += '<h1>- ' + json.name + ' -</h1>';
       // Spell description
