@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="master-styles.css" />
+  <link rel="stylesheet" href="https://use.typekit.net/hdg5fvk.css">
+  <title>D&D Spell Reference</title>
+</head>
+
+<body>
+  <div class='page-title'><img src="dnd-icon.png" width="100px"><strong>Dungeons & Dragons Spell Reference</strong></div>
+  <div class = 'page'>
+  <h1>Made using the <a href="http://www.dnd5eapi.co/">D&D 5th Edition API</a>!</h1>
+  <div class='searchbar'>
+    <form>
+      <label>Enter a spell name:</label>
+      <input id="searchInput" type="text"></input>
+      <input id="searchSubmit" type="submit" value="Submit"></input>
+      <p>(For spaces, put a "-")</p>
+    </form>
+    <!--<form>
+      <label>Choose a database to search:</label>
+      <select id="selector">
+        <option value="spells">Spells</option>
+        <option value="classes">Classes</option>
+        <option value="features">Features</option>
+        <option value="monsters">Monsters</option>
+      </select>
+    </form>-->
+  </div>
+
+  <div id="searchResults"></div>
+</div>
+<script text="type/javascript" src="script.js"></script>
+<div class='footer'><a href=''>Link to GitHub</a></div>
+</body>
+</html>

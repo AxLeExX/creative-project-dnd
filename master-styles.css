@@ -1,0 +1,101 @@
+* { /* Resets everything so different browsers don't affect layout */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sanvito-pro, sans-serif;
+}
+.active a {
+  color: #BE1E2D;
+}
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #cdc0b0;
+}
+
+.page-title {
+  border: 10px solid #BE1E2D;
+  font-family: sanvito-pro, sans-serif;
+  color: #BE1E2D;
+  background-color: #FFFFFF;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+
+.page {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  min-height: 70vh;
+}
+
+.searchbar {
+  padding: 0em 5em;
+}
+
+form {
+  font-size: 20px;
+  padding: 1em 0em 0em 0em;
+}
+form p {
+  text-align: center;
+}
+#selector, #searchSubmit {
+  padding: 3px;
+  font-size: 20px;
+}
+#searchInput {
+  padding: 5px;
+  text-align: left;
+}
+
+
+#searchResults {
+  text-align: center;
+  padding: 2em 4em;
+}
+h2, h3 {
+  text-align: left;
+  margin: 15px 0px 5px 0px;
+}
+p {
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+}
+li {
+  text-align: left;
+  margin: 5px 20px;
+}
+
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #BE1E2D;
+  text-decoration: underline;
+}
+
+
+.footer {
+  background-color: #BE1E2D;
+  text-align: center;
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+.footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
